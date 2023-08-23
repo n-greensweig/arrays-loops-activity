@@ -1,111 +1,111 @@
-/**
- * #1 Hobbies
- * ----------
- * 1. Create an array of group member hobbies
- * 2. Write a loop that logs out each hobby
- * 3. After the loop, log out the total number of
- *    hobbies
- */
-let hobbies = ['baseball', 'cooking', 'football'];
-for (hobby of hobbies) {
-    console.log(hobby);
-}
-console.log(hobbies.length);
+// /**
+//  * #1 Hobbies
+//  * ----------
+//  * 1. Create an array of group member hobbies
+//  * 2. Write a loop that logs out each hobby
+//  * 3. After the loop, log out the total number of
+//  *    hobbies
+//  */
+// let hobbies = ['baseball', 'cooking', 'football'];
+// for (hobby of hobbies) {
+//     console.log(hobby);
+// }
+// console.log(hobbies.length);
 
 
-// Example output
-// 1. swimming
-// 2. board games
-// 3. painting
-// Total hobbies: 3
+// // Example output
+// // 1. swimming
+// // 2. board games
+// // 3. painting
+// // Total hobbies: 3
 
-/**
- * #2 Colors
- * ---------
- * 1. Create an array of colors as strings
- *    (include the color 'teal' at least once)
- * 2. Create a variable tealCount
- * 3. Write a loop that counts the number of times teal 
- *    is in the array
- * 4. Output the array and number of times teal was found
- */
-
-
-// Example output
-// green, red, teal, orange, teal
-// Teal was found 2 times
-let colors = ['teal', 'yellow', 'green', 'pink', 'teal', 'teal', 'teal'];
-let tealCount = 0;
-for (let i = 0; i < colors.length; i++) {
-    let color = colors[i];
-    if (color == 'teal') {
-        tealCount++;
-    }
-}
-console.table(colors);
-console.log(`Teal was found ${tealCount} times`);
-
-/**
- * #3 Even & Odd
- * -------------
- * 1. Create an array of numbers (at least 5 numbers)
- * 2. Create variables oddNumbers and evenNumbers (empty arrays)
- * 3. Write a loop that puts all the odd numbers in the oddNumbers
- *    array and even numbers in the evenNumbers array.
- * 4. Output the original array, odd number array and even number array
- */
+// /**
+//  * #2 Colors
+//  * ---------
+//  * 1. Create an array of colors as strings
+//  *    (include the color 'teal' at least once)
+//  * 2. Create a variable tealCount
+//  * 3. Write a loop that counts the number of times teal 
+//  *    is in the array
+//  * 4. Output the array and number of times teal was found
+//  */
 
 
-// Example output
-// 3, 7, 2, 8, 11, 4, 2
-// Odd 3, 7, 11
-// Even 2, 8, 4, 2
-let numbers = [2, 5, 4, 6, 98, 15];
-let oddNumbers = [];
-let evenNumbers = [];
+// // Example output
+// // green, red, teal, orange, teal
+// // Teal was found 2 times
+// let colors = ['teal', 'yellow', 'green', 'pink', 'teal', 'teal', 'teal'];
+// let tealCount = 0;
+// for (let i = 0; i < colors.length; i++) {
+//     let color = colors[i];
+//     if (color == 'teal') {
+//         tealCount++;
+//     }
+// }
+// console.table(colors);
+// console.log(`Teal was found ${tealCount} times`);
 
-for (number of numbers) {
-
-    let even = (number % 2 === 0);
-    console.log(even);
-
-    if (even) {
-        evenNumbers.push(number);
-    } else {
-        oddNumbers.push(number);
-    }
-
-}
-
-console.log(numbers);
-console.log(evenNumbers);
-console.log(oddNumbers);
-
-
-/**
- * #4 Flipping Switches
- * --------------------
- * 1. Create an array of boolean values (some true and some false)
- * 2. Create a variable toggled (empty array)
- * 3. Write a loop that adds the opposite value to the toggled array
- * 4. Output both arrays
- */
+// /**
+//  * #3 Even & Odd
+//  * -------------
+//  * 1. Create an array of numbers (at least 5 numbers)
+//  * 2. Create variables oddNumbers and evenNumbers (empty arrays)
+//  * 3. Write a loop that puts all the odd numbers in the oddNumbers
+//  *    array and even numbers in the evenNumbers array.
+//  * 4. Output the original array, odd number array and even number array
+//  */
 
 
-// Example output
-// true, false, true, true
-// Toggled false, true, false, false
-let startingArray = [true, false, false, true];
-let toggled = [];
-for (i = 0; i < startingArray.length; i++) {
-    console.log(startingArray[i]);
-    if (startingArray[i] === true) {
-        toggled.push(false);
-    } else {
-        toggled.push(true);
-    }
-}
-console.log(toggled);
+// // Example output
+// // 3, 7, 2, 8, 11, 4, 2
+// // Odd 3, 7, 11
+// // Even 2, 8, 4, 2
+// let numbers = [2, 5, 4, 6, 98, 15];
+// let oddNumbers = [];
+// let evenNumbers = [];
+
+// for (number of numbers) {
+
+//     let even = (number % 2 === 0);
+//     console.log(even);
+
+//     if (even) {
+//         evenNumbers.push(number);
+//     } else {
+//         oddNumbers.push(number);
+//     }
+
+// }
+
+// console.log(numbers);
+// console.log(evenNumbers);
+// console.log(oddNumbers);
+
+
+// /**
+//  * #4 Flipping Switches
+//  * --------------------
+//  * 1. Create an array of boolean values (some true and some false)
+//  * 2. Create a variable toggled (empty array)
+//  * 3. Write a loop that adds the opposite value to the toggled array
+//  * 4. Output both arrays
+//  */
+
+
+// // Example output
+// // true, false, true, true
+// // Toggled false, true, false, false
+// let startingArray = [true, false, false, true];
+// let toggled = [];
+// for (i = 0; i < startingArray.length; i++) {
+//     console.log(startingArray[i]);
+//     if (startingArray[i] === true) {
+//         toggled.push(false);
+//     } else {
+//         toggled.push(true);
+//     }
+// }
+// console.log(toggled);
 
 /**
  * #5 (STRETCH) Remove 0's
@@ -121,19 +121,16 @@ console.log(toggled);
 // Example output
 // Before loop 3, 0, 2, 8, 0, 0, 0
 // After loop 3, 0, 2, 8
-let nums = [2, 1, 0, 5, 0, 0, 0, 0];
-let zeroCount = 0;
-for (let i = nums.length; i > 0; i--) {
+let nums = [2, 1, 0, 5, 0, 0, 0, 5, 0, 10];
+let firstZIndex = nums.indexOf(0);
 
-    if (nums[i] === 0 && zeroCount === 0) {
-        zeroCount++;
-    }
-    else if (nums[i] === 0 && zeroCount > 0) {
-        nums.pop();
+for (let i = nums.length - 1; i >= 0; i--) {
+    let num = nums[i];
+    if (num === 0 && i !== firstZIndex) {
+        nums.splice(i, 1);
     }
 }
-console.log(zeroCount);
-console.log(nums); // not perfect
+console.log(nums);
 
 /**
  * #6 (STRETCH) Greatest Position Distance
