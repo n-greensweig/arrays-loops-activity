@@ -129,11 +129,11 @@ for (let i = nums.length; i > 0; i--) {
         zeroCount++;
     }
     else if (nums[i] === 0 && zeroCount > 0) {
-        nums.filter();
+        nums.pop();
     }
 }
 console.log(zeroCount);
-console.log(nums);
+console.log(nums); // not perfect
 
 /**
  * #6 (STRETCH) Greatest Position Distance
